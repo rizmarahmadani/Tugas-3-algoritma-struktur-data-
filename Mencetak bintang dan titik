@@ -1,0 +1,10 @@
+2. SEGITIGA BINTANG
+START
+    n = 8
+    FOR i FROM 0 TO n - 1 DO
+        PRINT " " * i  // Cetak spasi i kali
+        PRINT "*" * (n - i)  // Cetak bintang n - i kali
+        PRINT NEWLINE
+    END FOR
+END
+https://drive.google.com/file/d/1b5j8aG766qfek_RePwLPPPcBFybJCs_8/view?usp=drivesdk
