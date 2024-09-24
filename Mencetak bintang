@@ -1,0 +1,15 @@
+3. BINTANG TITIK SEGITIGA
+START
+SET n = 6
+FOR i FROM 1 TO n DO
+    FOR j FROM 1 TO (n - i) DO
+        PRINT " "  // Print space for alignment
+    END FOR
+    FOR j FROM 1 TO i DO
+        PRINT "*"  // Print star
+        PRINT " "  // Print space after star
+    END FOR
+    PRINT NEWLINE  // Move to the next line
+END FOR
+END
+https://drive.google.com/file/d/1EhlQcFhXMau2MGpitW9i9eolefT8bLPy/view?usp=drivesdk
